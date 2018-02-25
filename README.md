@@ -1,5 +1,3 @@
-# The declarative way to fetch data required by your React & Redux app
-
 This library exports a React component that automatically dispatches a Redux action
 when rendered. You can use it to trigger data fetch instead of doing it imperatively 
 in `componentDidMound`. 
