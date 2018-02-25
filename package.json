@@ -1,0 +1,42 @@
+{
+  "name": "auto-dispatch",
+  "version": "1.0.0",
+  "description": "The declarative way to fetch data required by your React & Redux app",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel index.js --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/ziolko/auto-dispatch",
+  "bugs": {
+    "url": "https://github.com/ziolko/auto-dispatch"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "fetch",
+    "action",
+    "dispatch",
+    "automatically",
+    "render",
+    "init",
+    "initilize",
+    "component"
+  ],
+  "author": "Mateusz Zieliński <mateusz.mzielinski@gmail.com> (https://github.com/ziolko)",
+  "license": "MIT",
+  "dependencies": {
+    "fast-deep-equal": "^1.0.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  }
+}
