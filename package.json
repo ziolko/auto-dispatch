@@ -1,10 +1,10 @@
 {
   "name": "auto-dispatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The declarative way to fetch data required by your React & Redux app",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel index.js --out-dir dist",
+    "build": "babel index.js --out-dir dist --presets @babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/ziolko/auto-dispatch",
