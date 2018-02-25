@@ -9,7 +9,10 @@ import { connect } from 'react-redux'
 import AutoDispatch from 'auto-dispatch'
 
 // Action creator
-const fetchCardDetails = cardId => ({ type: 'FETCH_CARD_DETAILS', cardId })
+const fetchCardDetails = cardId => ({ 
+  type: 'FETCH_CARD_DETAILS', 
+  cardId 
+})
 
 // React component that automatically fetches required data
 const Card = props => (
